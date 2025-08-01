@@ -294,8 +294,8 @@
                 <div class="step-details">
                     <ul>
                         <li>Download TestFlight first from app store</li>
-                        <li><strong>Android App:</strong> <a href="https://appdistribution.firebase.google.com/pub/i/a1e8040bcafbe3ac" target="_blank" rel="noopener">Download TotaLite App</a></li>
-                        <li><strong>iOS App:</strong> <a href="https://testflight.apple.com/join/ewgyNrNV" target="_blank" rel="noopener">Download TotaLite App</a></li>
+                        <li><strong>Android:</strong> <a href="https://appdistribution.firebase.google.com/pub/i/a1e8040bcafbe3ac" target="_blank" rel="noopener">Download TotaLite App</a></li>
+                        <li><strong>iOS:</strong> <a href="https://testflight.apple.com/join/ewgyNrNV" target="_blank" rel="noopener">Download TotaLite App</a></li>
                     </ul>
                 </div>
             </div>
@@ -305,18 +305,14 @@
             
             <div class="step">
                 <div class="step-number">4</div>
-                <div class="step-title">Mount TotaLite Sensor</div>
-                <div class="step-content">Install sensor on rigid, stable support</div>
+                <div class="step-title">Rigidly Install TotaLite Sensor</div>
+                <div class="step-content">Mount sensor on rigid, stable support</div>
                 <div class="step-details">
                     <ul>
-                        <li>Rigidly install mounting bracket</li>
-                        <li>Bracket fits poles 50-60mm with U-bolts</li>
-                        <li>Attach with 4x M6 bolts (max 20mm length)</li>
+                        <li>Install TotaLite sensor rigidly, making sure it doesn't move</li>
+                        <li>TotaLite Bracket fits poles 50-60mm with U-bolts; requires 4x M6 bolts (max 20mm length)</li>
+                        <li>Ensure mounting minimizes vibrations and movements</li>
                     </ul>
-                </div>
-                <div class="warning">
-                    <div class="warning-icon">⚠️</div>
-                    <div class="warning-text">DO NOT mount with pitch/roll angle >20°</div>
                 </div>
             </div>
             
@@ -367,7 +363,7 @@
                 <div class="step-details">
                     <ul>
                         <li>Open TotaLite app → Press "Connect"</li>
-                        <li>Bluetooth pairing code: <strong>123789</strong></li>
+                        <li>Bluetooth pairing code: <strong>Device-specific (check device label)</strong></li>
                         <li>Enable sensor WiFi in app</li>
                         <li>Connect phone to sensor WiFi network</li>
                     </ul>
@@ -385,7 +381,7 @@
                         <li><strong>LED Power:</strong> 3-10m: 5% | 10-20m: 10% | 20-50m: 50% | 50-100m: 100%</li>
                         <li><strong>Integration Cycles:</strong> Default = 3</li>
                         <li><strong>Measurement Interval:</strong> 5 min to 24 hours</li>
-                        <li>Take test measurement and verify image quality</li>
+                        <li>Take test measurement and verify image quality via app</li>
                     </ul>
                 </div>
             </div>
@@ -401,7 +397,7 @@
                         <li>Use "Take New Measurement" in app</li>
                         <li>Review "Deconvolved Image"</li>
                         <li>Confirm all targets are clearly visible</li>
-                        <li>Check targets are neither too bright nor too dim</li>
+                        <li>Check via app that targets are neither too bright nor too dim</li>
                     </ul>
                 </div>
             </div>
@@ -412,14 +408,14 @@
             <div class="step">
                 <div class="step-number">10</div>
                 <div class="step-title">Create Baseline in Platform</div>
-                <div class="step-content">Establish reference point for all measurements</div>
+                <div class="step-content">Set baseline timestamp for measurement reference</div>
                 <div class="step-details">
                     <ul>
                         <li>Go to project → Click "Create Baseline"</li>
                         <li>Select date/time for baseline measurement</li>
                         <li>Assign names to each target</li>
                         <li>Enter slope distances (sensor to each prism)</li>
-                        <li>Mark reference targets (≥1 required for yaw compensation)</li>
+                        <li>Mark reference targets if required (consult knowledge base)</li>
                     </ul>
                 </div>
             </div>
@@ -429,12 +425,10 @@
             <div class="step">
                 <div class="step-number">11</div>
                 <div class="step-title">Set Up Target Pairs (Optional)</div>
-                <div class="step-content">Create relative displacement measurements</div>
+                <div class="step-content">Create relative displacement measurements if needed</div>
                 <div class="step-details">
                     <ul>
                         <li>Drag lines between targets to create pairs</li>
-                        <li>Calculation: Target 2 - Target 1</li>
-                        <li>Useful for tunnel convergence, differential settlement</li>
                         <li>Skip if only absolute displacements needed</li>
                     </ul>
                 </div>
