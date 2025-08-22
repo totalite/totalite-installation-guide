@@ -198,7 +198,36 @@
             margin: 5px 0;
         }
         
-        .step-details a {
+        .resource-link {
+            background: #f8f9ff;
+            border: 1px solid #667eea;
+            border-radius: 8px;
+            padding: 8px 12px;
+            margin-top: 10px;
+            text-align: center;
+        }
+        
+        .resource-link a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.9em;
+            display: inline-block;
+        }
+        
+        .resource-link a:hover {
+            color: #764ba2;
+        }
+        
+        .resource-link::before {
+            content: "📖 ";
+            margin-right: 5px;
+        }
+        
+        .resource-link.video::before {
+            content: "🎥 ";
+            margin-right: 5px;
+        }
             color: #667eea;
             text-decoration: none;
             font-weight: 500;
@@ -267,6 +296,9 @@
                         <li>Power Splitter Cable</li>
                     </ul>
                 </div>
+                <div class="resource-link">
+                    <a href="https://totalite.notion.site/what-s-in-the-box" target="_blank" rel="noopener">What's in the box</a>
+                </div>
             </div>
             
             <div class="arrow">↓</div>
@@ -283,6 +315,9 @@
                         <li>Assign sensor to project</li>
                     </ul>
                 </div>
+                <div class="resource-link">
+                    <a href="https://totalite.notion.site/totalite-platform" target="_blank" rel="noopener">TotaLite Platform</a>
+                </div>
             </div>
             
             <div class="arrow">↓</div>
@@ -297,6 +332,9 @@
                         <li><strong>Android:</strong> <a href="https://appdistribution.firebase.google.com/pub/i/a1e8040bcafbe3ac" target="_blank" rel="noopener">Download TotaLite App</a></li>
                         <li><strong>iOS:</strong> <a href="https://testflight.apple.com/join/ewgyNrNV" target="_blank" rel="noopener">Download TotaLite App</a></li>
                     </ul>
+                </div>
+                <div class="resource-link">
+                    <a href="https://totalite.notion.site/totalite-app" target="_blank" rel="noopener">TotaLite App</a>
                 </div>
             </div>
             
@@ -313,6 +351,9 @@
                         <li>TotaLite Bracket fits poles 50-60mm with U-bolts; requires 4x M6 bolts (max 20mm length)</li>
                         <li>Ensure mounting minimizes vibrations and movements</li>
                     </ul>
+                </div>
+                <div class="resource-link">
+                    <a href="https://totalite.notion.site/hardware-installation" target="_blank" rel="noopener">TotaLite Sensor Installation</a>
                 </div>
             </div>
             
@@ -332,6 +373,9 @@
                         <li>Measure the slope distances from your targets to TotaLite Sensor</li>
                     </ul>
                 </div>
+                <div class="resource-link">
+                    <a href="https://totalite.notion.site/hardware-installation" target="_blank" rel="noopener">Prims Installation</a>
+                </div>
             </div>
             
             <div class="arrow">↓</div>
@@ -347,6 +391,9 @@
                         <li>Voltage range: 9.5-24V DC, minimum 12W</li>
                         <li>LED indicators show power and system status</li>
                     </ul>
+                </div>
+                <div class="resource-link">
+                    <a href="https://totalite.notion.site/hardware-installation" target="_blank" rel="noopener">Power Supply</a>
                 </div>
                 <div class="warning">
                     <div class="warning-icon">⚠️</div>
@@ -370,6 +417,9 @@
                         <li>Disconnect from WiFi from the device when configuration is complete</li>
                     </ul>
                 </div>
+                <div class="resource-link">
+                    <a href="https://totalite.notion.site/totalite-app" target="_blank" rel="noopener">Connect App</a>
+                </div>
             </div>
             
             <div class="arrow">↓</div>
@@ -386,6 +436,9 @@
                         <li>Take test measurement and verify image quality via app</li>
                     </ul>
                 </div>
+                <div class="resource-link">
+                    <a href="https://totalite.notion.site/totalite-app" target="_blank" rel="noopener">Device>Change Sensor Settings</a>
+                </div>
             </div>
             
             <div class="arrow">↓</div>
@@ -401,6 +454,9 @@
                         <li>Confirm all targets are clearly visible</li>
                         <li>Check via app that targets are neither too bright nor too dim</li>
                     </ul>
+                </div>
+                <div class="resource-link">
+                    <a href="https://totalite.notion.site/totalite-app" target="_blank" rel="noopener">Device>Validate Measurement</a>
                 </div>
             </div>
             
@@ -420,6 +476,12 @@
                         <li>Mark reference targets if required (consult knowledge base)</li>
                     </ul>
                 </div>
+                <div class="resource-link">
+                    <a href="https://totalite.notion.site/totalite-platform" target="_blank" rel="noopener">Create the Baseline</a>
+                </div>
+                <div class="resource-link video">
+                    <a href="https://www.loom.com/share/789991eac86f41ca9df88bb21cb7c78c?highlightComment=111631361&t=712" target="_blank" rel="noopener">Tutorial Video</a>
+                </div>
             </div>
             
             <div class="arrow">↓</div>
@@ -433,6 +495,9 @@
                         <li>Drag lines between targets to create pairs</li>
                         <li>Skip if only absolute displacements needed</li>
                     </ul>
+                </div>
+                <div class="resource-link">
+                    <a href="https://totalite.notion.site/totalite-platform" target="_blank" rel="noopener">Create the Baseline>Target Pairs Setup</a>
                 </div>
             </div>
             
@@ -449,6 +514,9 @@
                         <li>Review data quality metrics (CQF >70%, SNR >18dB)</li>
                         <li>Contact TotaLite team for baseline quality assessment</li>
                     </ul>
+                </div>
+                <div class="resource-link">
+                    <a href="https://totalite.notion.site/totalite-platform" target="_blank" rel="noopener">Advanced>Data Quality</a>
                 </div>
             </div>
             
